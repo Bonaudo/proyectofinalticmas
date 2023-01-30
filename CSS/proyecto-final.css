@@ -1,0 +1,146 @@
+.container{
+    display: flex;
+    background-color: rgba(0, 255, 255, 0.705);
+}
+
+html{
+    font-size: 65%;
+    margin-left: 2.5em;
+    background-color: rgba(0, 255, 255, 0.705);
+}
+
+@media (min-width: 600px){
+    html {
+        font-size: 100%;
+        max-width: 70%;
+        margin-left: 18%;
+    }
+}
+
+/* COLUMNA IZQUIERDA */
+
+.seccion1{
+    color: #fff;
+    text-align: justify;
+}
+
+
+#columna-izuierda {
+    background-color: #003147;
+    width: 30%;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foto-main {
+    max-width: 100%;
+    margin-left: 0.1rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+@media (min-width:600px){
+    .foto-main {
+        margin-left: 0.5rem
+    }
+}
+
+/* COLUMNA DERECHA */
+
+.col-7 {
+    background-color: rgba(110, 191, 223, 0.63);
+    align-items: center;
+    color: #003147;
+}
+
+.Nombre_y_Apellido {
+    text-align: center;
+    padding-top: 30px;
+    position: static;
+    color: #133f91;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.profesion {
+    text-align: center;
+    padding-top: 30px;
+    position: static;
+    color: #133f91;
+    font-size: 25px
+}
+
+.acerca_de {
+    margin-top: 50px;
+    color: #003147;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+}
+
+.contenido2 {
+    color: #003147;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.titulo2{
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CARROUSEL CON IMÁGENES */
+
+.carrousel {
+    max-width: 90%;
+    max-width: 120em;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.carrousel .grande {
+    width: 500%;
+    background-color: transparent;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.carrousel .img {
+    width: calc(100% / 5);
+    background-color: transparent;
+}
+
+.carrousel .puntos {
+    width: 100%;
+    background-color: transparent;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrousel .punto {
+    width: 0.5em;
+    height: 0.5em;
+    background-color: orange;
+    margin: 1em;
+    border-radius: 50%;
+}
+
+.carrousel .punto.activo {
+    background-color: purple;
+}
+
+/* LINEA SEPARADORA */
+
+.linea_separadora {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
